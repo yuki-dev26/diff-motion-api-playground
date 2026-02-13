@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Diff Motion API Demo</title>
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">Diff Motion API Demo</div>
+      <div id="emotionList" class="emotion-list"></div>
+      <div class="chat-area" id="chatArea">
+        <div class="message ai">Welcome to the Diff Motion API Demo😎</div>
+      </div>
+      <div class="input-area">
+        <input
+          type="text"
+          id="userInput"
+          placeholder="Command..."
+          onkeypress="if (event.key === 'Enter') sendMessage();"
+        />
+        <button onclick="sendMessage()" id="sendButton">SEND</button>
+      </div>
+    </div>
+    <script src="/static/script.js"></script>
+  </body>
+</html>
