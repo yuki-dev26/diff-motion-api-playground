@@ -4,6 +4,8 @@
 
 Diff Motion APIと連携して、AIの回答に応じてキャラクターの表情(ポーズ等)を切り替えるデモアプリケーション
 
+<img width="2543" height="1233" alt="image" src="https://github.com/user-attachments/assets/24461c3c-93c2-4358-9d1c-20f1642caa46" />
+
 > [!IMPORTANT]
 > 本デモの動作には、[Diff Motion](https://yuki-p.booth.pm/items/7913743)の購入が必要です。
 
