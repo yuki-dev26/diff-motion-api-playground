@@ -19,13 +19,17 @@ current_system_prompt = ""
 
 def update_presets():
     global available_presets, current_system_prompt
+    
+    # Diff Motion APIからプリセット一覧を取得
     available_presets = get_presets()
     if not available_presets:
         print("エラー: プリセットが見つかりません")
 
+    # プリセット名を [[プリセット名]] 形式のタグに変換（例: [[通常]], [[嬉しい]]）
     preset_tags = ", ".join([f"[[{p}]]" for p in available_presets])
     marker = "使用可能な感情タグ"
 
+    # システムプロンプト内の「使用可能な感情タグ」セクションを動的に置き換え
     if marker in base_system_prompt:
         pattern = rf"(?s)({re.escape(marker)}).*?(\n\s*\n|\Z)"
         current_system_prompt = re.sub(
