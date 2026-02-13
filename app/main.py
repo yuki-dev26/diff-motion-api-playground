@@ -1,4 +1,5 @@
 import re
+import uvicorn
 from contextlib import asynccontextmanager
 from pathlib import Path
 from fastapi import FastAPI
@@ -63,8 +64,7 @@ async def api_update_presets():
 
 
 if __name__ == "__main__":
-    import uvicorn
 
     print("Starting server...")
-    print("Access the demo at: http://localhost:8000")
+    print("Access the playground at: http://localhost:8000")
     uvicorn.run(app, host="0.0.0.0", port=8000, log_level="warning")

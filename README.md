@@ -1,6 +1,6 @@
-# Diff Motion API Demo
+# Diff Motion API Playground
 
-<img src="https://skillicons.dev/icons?i=html,css,js,py,fastapi&perline=8" />
+![Tech Stack](https://skillicons.dev/icons?i=html,css,js,py,fastapi&perline=8)
 
 Diff Motion APIと連携して、AIの回答に応じてキャラクターの表情(ポーズ等)を切り替えるデモアプリケーション
 
@@ -48,8 +48,8 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 ### 1. リポジトリのクローン
 
 ```bash
-git clone https://github.com/yuki-dev26/diff-motion-api-demo.git
-cd diff-motion-api-demo
+git clone https://github.com/yuki-dev26/diff-motion-api-playground.git
+cd diff-motion-api-playground
 ```
 
 ### 2. 環境変数の設定
@@ -87,11 +87,11 @@ uv run python -m app.main
    - APIサーバーが自動的に起動します（デフォルト: `http://localhost:37264`）
 
 2. **プリセットの取得と切り替えについて**
-   - Diff Motion API Demoが開いたらDiff Motionに登録済みのプリセット名が表示される
+   - Diff Motion API Playgroundが開いたらDiff Motionに登録済みのプリセット名が表示される
    - プリセット名をクリップするとそのプリセットに切り替わります
 
 3. **チャットによるプリセット切り換え**
-   - Diff Motion API Demoを起動後にブラウザで `http://localhost:8000` にアクセス
+   - Diff Motion API Playgroundを起動後にブラウザで `http://localhost:8000` にアクセス
    - チャット欄にメッセージを入力して送信
    - AIが応答し、その感情に応じてDiff Motionのプリセットが自動的に切り替わります
 

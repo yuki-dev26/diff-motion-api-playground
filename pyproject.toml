@@ -1,7 +1,7 @@
 [project]
-name = "diff-motion-api-demo"
+name = "diff-motion-api-playground"
 version = "1.0.0"
-description = "Diff Motion API Demo"
+description = "Diff Motion API Playground"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [

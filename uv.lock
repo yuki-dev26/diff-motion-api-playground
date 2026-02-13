@@ -130,7 +130,7 @@ wheels = [
 ]
 
 [[package]]
-name = "diff-motion-api-demo"
+name = "diff-motion-api-playground"
 version = "1.0.0"
 source = { virtual = "." }
 dependencies = [
