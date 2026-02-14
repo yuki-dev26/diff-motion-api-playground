@@ -95,7 +95,7 @@ uv run python -m app.main
 
 2. **プリセットの取得と切り替えについて**
    - Diff Motion API Playgroundが開いたらDiff Motionに登録済みのプリセット名が表示される
-   - プリセット名をクリップするとそのプリセットに切り替わります
+   - プリセット名をクリックするとそのプリセットに切り替わります
 
 3. **チャットによるプリセット切り換え**
    - Diff Motion API Playgroundを起動後にブラウザで `http://localhost:8000` にアクセス
