@@ -109,9 +109,6 @@ uv run python -m app.main
 3. **タグ抽出**: 正規表現 `\[\[(.*?)\]\]` でAI応答からタグを抽出
 4. **プリセット切り替え**: タグ内容がDiff Motionのプリセット名と一致すれば `http://localhost:37264/preset/switch` にPOSTリクエストを送信
 
-> [!IMPORTANT]
-> システムプロンプトの感情タグとDiff Motionのプリセット名が**完全一致**する必要があります
-
 ## Supporters
 
 [![note メンバーシップ](https://img.shields.io/badge/note-Membership-41C9B4?style=for-the-badge&logo=note&logoColor=white)](https://note.com/yuki_tech/membership/members)
