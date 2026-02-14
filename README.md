@@ -12,7 +12,7 @@ Diff Motion APIと連携して、AIの回答に応じてキャラクターの表
 <!-- -->
 
 > [!TIP]
-> Diff Motion APIについては、[こちらの記事](https://)を併せてご覧ください。
+> Diff Motion APIについては、[こちらの記事](https://note.com/yuki_tech/n/nd4425bdbef65)を併せてご覧ください。
 
 ## プロジェクト構造
 
